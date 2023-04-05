@@ -1,13 +1,7 @@
 local function notify(text)
     lib.notify({
         description = text,
-        position = 'top',
-        style = {
-            backgroundColor = '#141517',
-            color = '#909296'
-        },
-        icon = 'ban',
-        iconColor = '#C53030'
+        type = 'error'
     })
 end
 
